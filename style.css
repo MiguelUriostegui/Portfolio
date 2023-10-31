@@ -1,26 +1,125 @@
-
 html {
-    height: 100%;
-    width: 100%;
-  }
-  
-  body{
-    margin: 0;
-    padding: 0;
-    text-align: center;
-  }
-  
-  h1{
-    padding-top: 4em;
-  }
-  
-  p{
-    margin: 2em 0;
-  }
-  
-  img{
-    width: 40em;
-    max-width: 90%;
-    
-  }
-  
+  scroll-behavior: smooth;
+}
+
+#wrapper {
+  width: 80%;
+  /* height: 40px; */
+  margin-left: auto;
+  margin-right: auto;
+}
+
+body {
+  background-image: url('vadim-kaipov-_vlvybucSew-unsplash.jpg');
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+}
+
+nav a:visited,
+a:link {
+  color: #FEFAE0;
+  text-decoration: none;
+}
+
+
+header {
+  background-color: #1B4D3E;
+  color: #FEFAE0;
+  height: 110px;
+  text-align: center;
+  border-radius: 1vmax;
+  margin: 0;
+  position: relative; /* Add relative positioning to the header container */
+}
+
+/* Fixed positioning for the h1 within the header */
+header h1 {
+  position: absolute;
+  top: 50%; /* Vertically center the title */
+  left: 50%; /* Horizontally center the title */
+  transform: translate(-50%, -50%); /* Center it precisely */
+  font-size: 55px;
+  margin: 0; /* Reset margin for the h1 element */
+}
+
+.gap-2 {
+  gap: 10px;
+}
+
+#image-container {
+  width: 100%;
+}
+
+#Header-Cow {
+  width: 100%;
+  height: auto;
+  border-radius: 1vmax;
+}
+
+
+
+/* Corrected selector for styling elements with an id attribute */
+/* Also added a missing semicolon and a missing "padding-top" property in the section selector */
+
+#AboutMe {
+  background-color: #1B4D3E;
+  color: #FEFAE0;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 20px;
+  padding-right: 20px;
+  border-radius: 1vmax;
+}
+
+#Education {
+  background-color: #1B4D3E;
+  color: #FEFAE0;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 20px;
+  padding-right: 20px;
+  border-radius: 1vmax;
+}
+
+#Projects {
+  background-color: #1B4D3E;
+  color: #FEFAE0;
+  padding-top: 5px;
+  padding-bottom: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+  border-radius: 1vmax;
+}
+
+#ContactMe {
+  background-color: #1B4D3E;
+  color: #FEFAE0;
+  padding-top: 5px;
+  padding-bottom: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+  border-radius: 1vmax;
+}
+
+nav {
+  color: #FEFAE0;
+  height: 40px;
+  padding-top: 10px;
+}
+
+/* CSS for changing icon colors and size */
+.icon ion-icon {
+  color: #FEFAE0; /* Set the color for the icons */
+  font-size: 2em; /* Set the font size to 2 times the default size */
+}
+
+/* Set the text color for the footer */
+footer {
+  color: #FEFAE0;
+}
+
+/* Change the color of specific links within the footer */
+footer a {
+  color: #FEFAE0;
+}

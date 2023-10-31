@@ -4,14 +4,178 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width">
-  <title>GitHub Pages</title>
+  <title>Miguel's Portfolio (Progressing)</title>
   <link href="style.css" rel="stylesheet" type="text/css" />
+  
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+  <!-- From ionic icons  -->
+  <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+  <!-- From ionic icons  -->
+  <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+  <style>
+    /* Add CSS for navigation links */
+    nav a {
+      text-decoration: none;
+      color: #FEFAE0;
+      margin: 0 10px;
+    }
+  </style>
 </head>
 
 <body>
-  <h1>Hello World!</h1>
-  <p>My name is Miguel :)</p>
-  <img src="assets/images/Professional Portrait.jpg" alt="Profile pic">
+  <div id="wrapper">
+
+    <header align='center'>
+      <h1 style="font-size: 55px">Miguel's Website</h1>
+    </header>
+    <section id="TopNav">
+      <nav align='center'>
+        <a href='#AboutMe'> About Me </a> &nbsp; &nbsp;
+        <a href='#Education'> Education </a> &nbsp; &nbsp;
+        <a href='#Projects'> Projects </a> &nbsp; &nbsp;
+        <a href='#ContactMe'> Contact Me </a> &nbsp; &nbsp;
+      </nav>
+    </section>
+
+    <!-- COW PICTURE  -->
+    <div id="Header-Cow">
+      <img id="Header-Cow" src="eric-welch-XucH5JNRFig-unsplash.jpg" alt="ScotlandBull" title="King of the Hillside">
+    </div>
+
+    <main>
+
+      <!-- ABOUT ME -->
+      <section id="AboutMe">
+        <h1 style="font-size: 30px"> About Me:</h1>
+        <p><strong>Miguel Angel Uriostegui Fernandez </strong>is a student at Arizona State University studying
+          Computer Information
+          Systems in W.P. Carey Schools of Business. 
+        </p>
+        With his degree, Miguel plans to join an information technology
+          team and manage/analyze database structures.
+
+          Miguel has developed data management skills through his course related work which required him to
+          work with Entity relationship diagrams (ERD). Miguel has gained professional experience in virtual design as
+          he worked in a team in 3D modeling in the construction industry. He will use his final year at ASU
+          learning new programming languages and maintaining a high GPA.
+        </p>
+        <a href="Miguel Uriostegui Resume.pdf" download>
+          <button>Download Miguel's Resume</button>
+        </a>
+
+        <br><br>
+      </section>
+      <br>
+
+      <!-- EDUCATION -->
+      <section id="Education">
+        <h1>My Education: </h1>
+        <ul>
+          <li>
+            <h3>Arizona State University, Tempe, AZ</h3>
+            <ul>
+              <li> Bachelor of Science: Computer Information Systems</li>
+              <li> May 2024</li>
+            </ul>
+          </li>
+        </ul>
+      </section>
+      <br>
+
+      <!-- PROJECTS -->
+      <section id="Projects">
+        <h1> My Projects: </h1>
+        <h3>Community Service</h3>
+        <p>Worked alongside the non-profit Homeward Bound community to improve their social gathering areas.</p>
+
+        <table border="1" width="100%">
+          <tr>
+            <th colspan="3">Group 1</th>
+          </tr>
+          <tr>
+            <td>Team Member 1</td>
+            <td>Team Member 2</td>
+            <td>Team Member 3</td>
+          </tr>
+          <tr>
+            <td>Miguel</td>
+            <td>Alejandro</td>
+            <td>Daniela</td>
+          </tr>
+        </table>
+      </section>
+      <br>
+
+      <!-- CONTACT ME -->
+      <section id="ContactMe">
+        <h1>Contact Me</h1>
+        <p>Feel free to reach out to me using the form below:</p>
+
+        <form action="https://formsubmit.co/miguelu374@gmail.com" method="POST">
+          <label for="name">Name:</label>
+          <input type="text" id="name" name="name" required><br><br>
+
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" required><br><br>
+
+          <label for="subject">Subject:</label>
+          <input type="text" id="subject" name="subject"><br><br>
+
+          <label for="message">Message:</label><br>
+          <textarea id="message" name="message" rows="4" cols="50" required></textarea><br><br>
+          <button type = "submit"> Send</button>
+        </form>
+
+      </section>
+      <br><br>
+
+    </main>
+
+    <footer align='center'>
+      <!-- Embedded YouTube Video -->
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/dQw4w9WgXcQ?rel=0" frameborder="0"
+        allowfullscreen></iframe>
+      <!-- SOCIAL MEDIA ICONS  -->
+      <div class="icon">
+        <a href="https://www.linkedin.com/in/miguelauriost" target="_blank" class="media-icon">
+          <ion-icon name="logo-linkedin"></ion-icon>
+        </a>
+        <a href="https://migueluriostegui.github.io/Portfolio/" target="_blank" class="media-icon">
+          <ion-icon name="logo-github"></ion-icon>
+        </a>
+        <a href="https://www.instagram.com/m.a.urio" target="_blank" class="media-icon">
+          <ion-icon name="logo-instagram"></ion-icon>
+        </a>
+        <a href="https://www.facebook.com/YoungMiggul" target="_blank" class="media-icon">
+          <ion-icon name="logo-facebook"></ion-icon>
+        </a>
+        <a href="mailto: mauriost@asu.edu" target="_blank" class="media-icon">
+          <ion-icon name="mail-outline"></ion-icon>
+        </a>
+      </div>
+      <p><i><small>Copyright &copy; Miguel Uriostegui<br>
+            <a href="mailto: mauriost@asu.edu">Miguel Uriostegui<br></a>
+            Photo by
+            <a
+              href="https://unsplash.com/@eric_welch?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Eric
+              Welch</a> on
+            <a
+              href="https://unsplash.com/photos/XucH5JNRFig?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+            and <a href="https://unsplash.com/@vadimkaipov?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Vadim Kaipov</a> on <a href="https://unsplash.com/photos/green-fern-plant-in-close-up-photography-_vlvybucSew?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
+
+
+          </small>
+          </nav>
+    </footer>
+
+  </div>
+
 </body>
 
 </html>
+
+
+
